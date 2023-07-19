@@ -1,9 +1,15 @@
+/* universal styling  */
+
 *{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 /* nav styles starts here  */
+.nav-bar{
+    width: auto;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -19,9 +25,22 @@
     max-height: 40px;
 }
 .pink-letter{
-    color: palevioletred;
-    font-size: 2.8rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
     font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+.shaded-part{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
     font-weight: 700;
 }
 .title{
@@ -42,6 +61,88 @@
     text-decoration: none;
 }
 
+/* banner styles starts here  */
+.banner-container{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner-info{}
+.btn-pink{
+    background-color: magenta;
+    color: white;
+    border: none;
+    padding: 20px 14px;
+    border-radius: 20px;
+}
+.btn-blue{
+    background-color: rgb(53, 181, 232);
+    color: white;
+    border: none;
+    padding: 20px 14px;
+    border-radius: 20px;
+}
+.banner-img{}
+
+
+
+/* play instantly styles starts here  */
+.play-instantly{
+    display: flex;
+    margin-bottom: 300px;
+    gap: 200px;
+}
+.play-info{
+    padding-top: 550px;
+}
+
+.play-section-title{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 70px;
+}
+.play-rules{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: right;
+    max-width: 353px;
+    padding-left: 120px;
+}
+
+/* #angela{
+    position: relative;
+    top: 355px;
+    left: 180px;
+} */
+#angela{
+    position: relative;
+    top: 730px;
+    right: 150px;
+
+}
+
+/* game section styles  */
+.games{
+    width: auto;
+}
+.game-names{
+    float: inherit;
+}
+
 /* footer styles starts here  */
 .footer-headings{
     align-items: center;
@@ -49,7 +150,7 @@
 }
 .footer{
     background-color: rgba(11, 2, 35, 1);
-    max-width: 1920px;
+    width: auto;
     max-height: 636px;
     text-align: center;
     padding: 50px;
@@ -97,6 +198,9 @@
 
 /* responsive styles */
 @media screen and (max-width:576px) {
+    .footer-info{
+        display: block;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
