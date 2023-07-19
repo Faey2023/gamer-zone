@@ -1,0 +1,31 @@
+/* responsive styles */
+/* small devices  */
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .game-cards{
+        grid-template-columns: 1fr;
+    }
+    #angela{
+        position: relative;
+        top: 730px;
+        right: 150px;
+    }
+    #horseman{
+        width: 630px;
+        height: 650px;
+    }
+    .play-game-images{
+        padding-left: 120px;
+    }
+}
+/* tablet or medium devices  */
+/* @media screen and (min-width:576px) and (max-width:960px) {
+} */
