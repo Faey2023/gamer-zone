@@ -32,13 +32,11 @@
 }
 .nav-logo{
     display: flex;
-    margin: 46px 240px;
-    gap: 20px;
+    margin: 2.875rem 15rem;
+    gap: 1.25rem;
     align-items: center;
 }
 .nav-logo img{
-    /* max-width: 80px;
-    max-height: 40px; */
     width: 100%;
     height: 100%;
 }
@@ -73,7 +71,7 @@ li>a{
     font-weight: 500;
 }
 li{
-    padding: 60px 30px;
+    padding: 3.75rem 1.875rem;
 }
 
 /* banner styles starts here  */
@@ -82,10 +80,10 @@ li{
     display: flex;
     justify-content: space-evenly;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 .banner{
-    padding-top: 200px;
+    padding-top: 12.5rem;
     background-image: url(images/Group\ 14.png);
 }
 .banner-img{
@@ -99,15 +97,15 @@ li{
 }
 .banner-info{
     display: inline-block;
-    padding-bottom: 17px;
+    padding-bottom: 1rem;
 }
 
 .btn-pink{
     background-color: magenta;
     border: none;
-    padding: 21px 40px;
-    gap: 10px;
-    border-radius: 48px;
+    padding: 1.3125rem 2.5rem;
+    gap: 0.625rem;
+    border-radius: 3rem;
     color: #FFF;
     font-family: Work Sans;
     font-size: 1.25rem;
@@ -116,9 +114,9 @@ li{
 .btn-blue{
     background-color: rgb(53, 181, 232);
     border: none;
-    padding: 21px 40px;
-    gap: 10px;
-    border-radius: 48px;
+    padding: 1.3125rem 2.5rem;
+    gap: 0.625rem;
+    border-radius: 3rem;
     color: #FFF;
     font-family: Work Sans;
     font-size: 1.25rem;
@@ -127,50 +125,50 @@ li{
 
 /* online game style starts here  */
 .online-games{
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 .online{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 .game-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 24px;
-    margin-bottom: 24px;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
     max-width: 100%;
     height: auto;
 }
 .card-names{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 24px;   
+    gap: 1.5rem;   
 }
 .game-card-img:hover{
-    border: 5px solid magenta;
+    border: 0.3 solid magenta;
 }
 .game-card-img{
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .info{
     color: #534C64;
     text-align: center;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    padding-bottom: 48px;
+    padding-bottom: 3rem;
 }
 /* play instantly styles starts here  */
 .play-instantly{
     display: flex;
-    margin-bottom: 120px;
-    gap: 200px;
+    margin-bottom: 7.5rem;
+    gap: 12.5rem;
     width: auto;
-    margin-top: -250px;
+    margin-top: -15.625rem;
 }
 .play-info{
-    padding-top: 550px;
-    padding-left: 100px;
+    padding-top: 34.375rem;
+    padding-left: 6.25rem;
 }
 
 .play-section-title{
@@ -179,7 +177,7 @@ li{
     font-family: Work Sans;
     font-size: 3rem;
     font-weight: 700;
-    padding-top: 70px;
+    padding-top: 4.375rem;
 }
 .play-rules{
     color: #534C64;
@@ -187,17 +185,17 @@ li{
     font-size: 1.125rem;
     font-weight: 400;
     text-align: right;
-    max-width: 353px;
-    padding-left: 120px;
+    max-width: 22.0625rem;
+    padding-left: 7.5rem;
 }
 
 #angela{
     position: relative;
-    top: 730px;
-    right: 150px;
+    top: 45.625rem;
+    right: 9.375rem;
 }
 .play-game-images{
-    padding-left: 120px;
+    padding-left: 7.5rem;
 }
 
 /* game section styles  */
@@ -205,7 +203,7 @@ li{
     width: auto;
     display:grid;
     grid-template-columns: repeat(5,1fr);
-    padding-left: 50px;
+    padding-left: 3.125rem;
     background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .game-names{
@@ -215,15 +213,15 @@ li{
     font-weight: 600;
 }
 .game-options{
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background: #FFF;
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 }
 
 .game-options:hover{
-    border: 5px solid magenta;
+    border: 0.3rem solid magenta;
 }
 
 /* footer styles starts here  */
@@ -234,13 +232,13 @@ li{
 .footer{
     background-color: rgba(11, 2, 35, 1);
     width: auto;
-    max-height: 636px;
+    max-height: 39.75rem;
     text-align: center;
-    padding: 50px;
-    margin-top: 80px;
+    padding: 3.125rem;
+    margin-top: 5rem;
 }
 .footer>div{
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 .white{
     color: #FFF;
@@ -252,10 +250,10 @@ li{
     font-family: Work Sans;
     font-size: 1.125rem;
     font-weight: 600;
-    padding-left: 60px;
+    padding-left: 3.75rem;
 }
 .footer-logos>a{
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 .credits>a{
     text-decoration: none;
@@ -264,8 +262,8 @@ li{
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 600;
-    padding-left: 60px;
-    padding-top: 75px;
+    padding-left: 3.75rem;
+    padding-top: 4.6875rem;
 }
 .copyright{
     color: rgba(255, 255, 255, 0.60);
@@ -275,5 +273,5 @@ li{
     font-weight: 500;
 }
 #footer-img{
-    padding-right: 20px;
+    padding-right: 1.25rem ;
 }
