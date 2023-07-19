@@ -69,37 +69,55 @@
     text-align: left;
     margin-bottom: 100px;
 }
+.banner{
+    padding-top: 200px;
+}
 .banner-title{
     color: #0B0223;
-    text-align: center;
     font-family: Work Sans;
     font-size: 3rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
-.banner-info{}
+.goat{
+    font-family: Work Sans;
+    font-size: 5.9375rem;
+    font-weight: 800;
+}
+.banner-info{
+    display: inline-block;
+    padding-bottom: 17px;
+}
+
 .btn-pink{
     background-color: magenta;
-    color: white;
     border: none;
-    padding: 20px 14px;
-    border-radius: 20px;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 .btn-blue{
     background-color: rgb(53, 181, 232);
-    color: white;
     border: none;
-    padding: 20px 14px;
-    border-radius: 20px;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
-.banner-img{}
-
-
 
 /* play instantly styles starts here  */
 .play-instantly{
     display: flex;
     margin-bottom: 300px;
     gap: 200px;
+    width: auto;
 }
 .play-info{
     padding-top: 550px;
@@ -198,8 +216,8 @@
 
 /* responsive styles */
 @media screen and (max-width:576px) {
-    .footer-info{
-        display: block;
+    .banner-container{
+        flex-direction: column-reverse;
     }
 }
 
