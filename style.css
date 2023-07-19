@@ -5,6 +5,13 @@
     margin: 0;
     padding: 0;
 }
+/* shared styles  */
+.title{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 600;
+}
 
 /* nav styles starts here  */
 .nav-bar{
@@ -72,13 +79,7 @@
 .banner{
     padding-top: 200px;
 }
-.banner-title{
-    color: #0B0223;
-    font-family: Work Sans;
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+
 .goat{
     font-family: Work Sans;
     font-size: 5.9375rem;
@@ -112,12 +113,43 @@
     font-weight: 600;
 }
 
+/* online game style starts here  */
+.online{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.game-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.card-names{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;   
+}
+.game-card-img:hover{
+    border: 5px solid magenta;
+}
+.game-card-img{
+    border-radius: 16px;
+}
+.info{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
 /* play instantly styles starts here  */
 .play-instantly{
     display: flex;
     margin-bottom: 300px;
     gap: 200px;
     width: auto;
+    margin-top: -250px;
 }
 .play-info{
     padding-top: 550px;
@@ -150,7 +182,6 @@
     position: relative;
     top: 730px;
     right: 150px;
-
 }
 
 /* game section styles  */
@@ -158,7 +189,7 @@
     width: auto;
 }
 .game-names{
-    float: inherit;
+    display: block;
 }
 
 /* footer styles starts here  */
