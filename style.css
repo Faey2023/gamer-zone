@@ -146,7 +146,7 @@
 /* play instantly styles starts here  */
 .play-instantly{
     display: flex;
-    margin-bottom: 300px;
+    margin-bottom: 120px;
     gap: 200px;
     width: auto;
     margin-top: -250px;
@@ -173,24 +173,39 @@
     padding-left: 120px;
 }
 
-/* #angela{
-    position: relative;
-    top: 355px;
-    left: 180px;
-} */
 #angela{
     position: relative;
     top: 730px;
     right: 150px;
 }
+.play-game-images{
+    padding-left: 120px;
+}
 
 /* game section styles  */
 .games{
     width: auto;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    
 }
 .game-names{
-    display: block;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: inline-block;
 }
+.game-options{
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.game-options:hover{
+    border: 5px solid magenta;
+}
+
 
 /* footer styles starts here  */
 .footer-headings{
