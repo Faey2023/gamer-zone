@@ -119,6 +119,9 @@ li{
 }
 
 /* online game style starts here  */
+.online-games{
+    padding-left: 30px;
+}
 .online{
     text-align: center;
     padding-bottom: 20px;
