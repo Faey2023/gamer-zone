@@ -12,7 +12,15 @@
     font-size: 3rem;
     font-weight: 600;
 }
-
+.shaded-part{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+}
 /* nav styles starts here  */
 .nav-bar{
     width: auto;
@@ -41,31 +49,28 @@
     font-size: 2.8125rem;
     font-weight: 700;
 }
-.shaded-part{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
-    font-size: 3rem;
-    font-weight: 700;
-}
-.title{
-    font-family: Work Sans;
-    font-size: 45px;
-    font-weight: 700;
-}
 .nav-lists{
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    margin: 46px;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 .nav-lists>li{
-    justify-content: space-evenly;
+    list-style: none;
+}
+li>a{
     text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+li{
+    padding: 60px 30px;
 }
 
 /* banner styles starts here  */
@@ -194,11 +199,12 @@
     font-family: Work Sans;
     font-size: 1.25rem;
     font-weight: 600;
-    display: inline-block;
 }
 .game-options{
     border-radius: 50px;
     background: #FFF;
+    display: flex;
+    align-items: center;
 
 }
 
